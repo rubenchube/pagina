@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.inicio-info{
+    margin-bottom: 25px;
+}
+
+
+.inicio-img {
+    width: 80%;
+    max-width: 300px;
+}
+.inicio-img-seccion{
+    position: relative;
+}
+
+.inicio-img-linea{
+    background-color: var(--secundary-color);
+    height: 15px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio-titulo{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.inicio-titulo-mision{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.inicio-titulo-vision {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+
+}
+    
+.inicio-mision{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.inicio-vision {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 0 auto;
+    margin: 20px auto;
+    
+}
+/*ES PARA DISPLAY DE PC*/
+@media(min-width: 950px){
+    .inicio-info{
+        margin-bottom: 0px;
+    }
+    
+    
+    .inicio-img {
+        width: 100%;
+        max-width: 500px;
+        padding-top: 150px;
+
+    }
+    .inicio-img-seccion{
+        position: relative;
+    }
+    
+
+    .inicio {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .inicio-titulo{
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .inicio-titulo-mision{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    
+    }
+    
+    .inicio-titulo-vision {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    
+    }
+        
+    .inicio-mision{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+        max-width: 450px;
+        margin: 0 auto;
+        margin: 20px auto;
+        text-align: justify
+    }
+    
+    .inicio-vision {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+        max-width: 450px;
+        margin: 0 auto;
+        margin: 20px auto;
+        text-align: justify;
+        
+    }
+
+}
